@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Speech to Text</title>
+    <link rel="shortcut icon" href="pics/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <body>
+      <center>
+      <font size="20px" color="white"> <i class="fa fa-microphone"></i>&nbsp;&nbsp;&nbsp;<b>Speech-to-Text</b>&nbsp;&nbsp;&nbsp;<i class="fa fa-file-text"></i></font>
+      <br>
+      <font size="20px" color="white"><i class="fa fa-long-arrow-right"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></font><br>
+      <font size="10px" color="white"><b>Read your speech aloud and get the text of it from our site</b></font>
+      <br>
+      <br>
+      <button class="butn" onclick="listen()"><b>Start Listening</b></button>
+      <br>
+      <br>
+      <font size="10px" color="white"><span id="listenn"><b></b></span></font>
+      <div class="words" contenteditable="true"></div>
+      <font size="10px" color="white"><b>You can copy your text it and paste it anywhere and use it</b></font><br /><br />
+      <button class="butn" onclick="refresh()"><b>Clear Page</b></button><br />
+      <script>
+        function refresh() {
+          location.reload();
+        }
+      </script>
+      <br /><br />
+      <br /><br />
+      <br />
+      <font color="white"><p align="center"><b>&copy;Copyright&nbsp;<a href="index.html">www.speechtotext.com</a></b></p></font>
+    </body>
+    <script src="./script.js"></script>
+  </center>
+  </body>
+</html>
